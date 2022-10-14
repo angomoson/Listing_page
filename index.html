@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./img/d-solid.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap"             rel="stylesheet">
+
+    <title>Listing Page </title>
+
+    <script defer src="./a.js"></script>
+</head>
+<body>
+    <nav>
+        <i><h1>Devomato</h1></i>
+        <div class="nav-btn">
+            <button class="login-btn"><img src="./img/right-to-bracket-solid.svg" alt=""> Login</button>
+            <button class="register-btn"><img src="./img/user-solid.svg" alt=""> Register</button>
+        </div>
+        
+    </nav>
+    <section class="wrapper">
+        <div class="left-container">
+            <div class="left-head">
+                <h3>Filters</h3>
+            </div>
+            <br>
+            <div class="left-container-top">
+                <h4>Cuisine Filters</h4>
+                <div class="radion-list">
+                    <input type="radio" id="all" name="cousine_filters" value="">                   <label for="html">All</label>
+                </div>
+                <div class="radio-list">
+                    <input type="radio" id="north_Indian" name="cousine_filters" value="">
+                    <label for="css">North Indian</label>
+                </div>
+               <div class="radio-list">
+                    <input type="radio" id="south_Indian" name="cousine_filters" value="">
+                    <label for="javascript">South Indian</label>
+                </div>
+                <div class="radio-list">
+                    <input type="radio" id="chinese" name="cousine_filters" value="">
+                    <label for="javascript">Chinese</label>
+                </div>
+               <div class="radio-list">
+                    <input type="radio" id="fast_food" name="cousine_filters" value="">
+                    <label for="javascript">Fast Food</label>
+                </div>
+                <div class="radio-list">
+                    <input type="radio" id="street" name="cousine_filters" value="">
+                    <label for="javascript">Street Food</label>
+                </div>
+            </div>
+            <br>
+            <div class="left-container-bottom">
+                <h4>Cost Filters</h4>
+                <div class="radion-list">
+                    <input type="radio" id="cost-all" name="cost_filters" value="">
+                   <label for="html">All</label>
+                </div>
+                <div class="radio-list">
+                    <input type="radio" id="cost-100-300" name="cost_filters" value="">
+                    <label for="css">100-300</label>
+                </div>
+               <div class="radio-list">
+                    <input type="radio" id="cost-301-600" name="cost_filters" value="">
+                    <label for="javascript">301-600</label>
+                </div>
+                <div class="radio-list">
+                    <input type="radio" id="cost-601-1000" name="cost_filters" value="">
+                    <label for="javascript">601-1000</label>
+                </div>
+               <div class="radio-list">
+                    <input type="radio" id="cost-1001-1500" name="cost_filters" value="">
+                    <label for="javascript">1001-1500</label>
+                </div>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="card">
+                <div class="card-photo">
+                    <a href="https://ibb.co/LNtCHGk"><img src="https://i.ibb.co/rd6ZNW7/Top-view-of-fusilli-pasta-stock-photo-containing-sauce-and-fusilli.jpg" alt="Top-view-of-fusilli-pasta-stock-photo-containing-sauce-and-fusilli" border="0"></a>
+                    <div class="time">
+                        <p>15 min</p>
+                    </div>
+                </div>
+                <div class="card-desc">
+                    <h4>Fussili Pasta</h4>
+                    <div class="card-place">
+                        <p>Keishampat Junction, Imphal</p>
+                        <div class="rating">
+                            <span>4.5</span>
+                            <img src="./img/star-solid.svg" alt="" srcset="">
+                        </div>
+                    </div>
+                    <br>
+                    <p class="cost">₹199 <span>only</span></p>
+                    <br>
+                    <div class="mini-card">
+                        <div class="card-details"><p>Breakfast</p> </div>
+                        <div class="card-details"><p>Lunch</p> </div>
+                        <div class="card-details"><p>Chinese</p></div>
+                        <div class="card-details"><p>Fast Food</p></div>
+                    </div>
+                    
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <div class="card-photo">
+                    <a href="https://ibb.co/LNRYBB1"><img src="https://i.ibb.co/41tKCCp/Peruvian-Grilled-Chicken-with-Creamy-Green-Sauce.png" alt="Peruvian-Grilled-Chicken-with-Creamy-Green-Sauce" border="0"></a>
+                    <div class="time">
+                        <p>20 min</p>
+                    </div>
+                </div>
+                <div class="card-desc">
+                    <h4>Peruvian Grilled Chicken</h4>
+                    <div class="card-place">
+                        <p>Kwakeithel, Imphal</p>
+                        <div class="rating">
+                            <span>4.6</span>
+                            <img src="./img/star-solid.svg" alt="" srcset="">
+                        </div>
+                    </div>
+                    <br>
+                    <p class="cost">₹299 <span>only</span></p>
+                    <br>
+                    <div class="mini-card">
+                        <div class="card-details"><p>Lunch</p> </div>
+                        <div class="card-details"><p>Dinner</p> </div>
+                        <div class="card-details"><p>North Indian</p></div>
+                        <div class="card-details"><p>Street Food</p></div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <div class="card-photo">
+                    <a href="https://ibb.co/0mK0SPf"><img src="https://i.ibb.co/4K2bGBj/Kadai-Paneer.jpg" alt="Kadai-Paneer" border="0"></a>
+                    <div class="time">
+                        <p>30 min</p>
+                    </div>
+                </div>
+                <div class="card-desc">
+                    <h4>Kadai Paneer</h4>
+                    <div class="card-place">
+                        <p>Sagolband Meino Leirak, Imphal</p>
+                        <div class="rating">
+                            <span>4.4</span>
+                            <img src="./img/star-solid.svg" alt="" srcset="">
+                        </div>
+                    </div>
+                    <br>
+                    <p class="cost">₹149 <span>only</span></p>
+                    <br>
+                    <div class="mini-card">
+                        <div class="card-details"><p>Lunch</p></div>
+                        <div class="card-details"><p>Dinner</p></div>
+                        <div class="card-details"><p>South Indian</p></div>
+                        <div class="card-details"><p>Street Food</p></div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <div class="card-photo">
+                    <a href="https://ibb.co/1sxdkbn"><img src="https://i.ibb.co/gvCPx67/Vegan-Naan-Bread-Easy-Homemade-Flatbread.jpg" alt="Vegan-Naan-Bread-Easy-Homemade-Flatbread" border="0"></a>
+                    <div class="time">
+                        <p>25 min</p>
+                    </div>
+                </div>
+                <div class="card-desc">
+                    <h4>Vegan Naan Bread</h4>
+                    <div class="card-place">
+                        <p>Uripok UK road, Imphal</p>
+                        <div class="rating">
+                            <span>4.2</span>
+                            <img src="./img/star-solid.svg" alt="" srcset="">
+                        </div>
+                    </div>
+                    <br>
+                    <p class="cost">₹129 <span>only</span></p>
+                    <br>
+                    <div class="mini-card">
+                        <div class="card-details"><p>Breakfast</p> </div>
+                        <div class="card-details"><p>Lunch</p> </div>
+                        <div class="card-details"><p>North Indian</p></div>
+                        <div class="card-details"><p>Street Food</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </section>
+
+    <footer>
+        &copy; <span>Devomato, All Rights reserved</span>
+    </footer>
+</body>
+</html>

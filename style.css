@@ -1,0 +1,185 @@
+* {
+    margin:0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 14px;
+}
+
+body {
+    background-color: #F8F8F8;
+}
+
+hr {
+    width: 95%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+button {
+    align-items: center;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5% 15px 5%;
+    background-color: white;
+}
+
+.nav-btn img {
+    width: 10px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(123deg) brightness(107%) contrast(101%);
+}
+
+.login-btn {
+    background-color: #5ab862;
+}
+
+.register-btn {
+    background-color: #57C0DD;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.left-container {
+    flex: 1;
+    padding-left: 10%;
+    padding-top: 4%;
+}
+
+.right-container {
+    flex: 3;
+    padding: 2% 10% 2% 0px;
+}
+
+.card {
+    display: flex;
+}
+
+.card-photo {
+    flex: 2;
+    padding: 1%;
+    position: relative;
+}
+
+.time {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    bottom: 25px;
+    left: 20px;
+    border-radius: 3px;
+    color: rgb(36, 36, 36);
+    padding: 0 5px 0 5px;
+}
+
+.time p {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.card-desc {
+    flex: 3;
+    padding: 2% 4% 2% 4%;
+}
+
+.card-photo img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+.rating {
+    background-color: #24963F;
+    border-radius: 5px;
+    color: white;
+    width: 50px;
+    padding-left: 3px;
+    text-align: center;
+    align-items: center;
+    max-height: 25px;
+}
+
+.rating img {
+    width: 14px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(123deg) brightness(107%) contrast(101%);
+}
+
+.rating>span {
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.card-place {
+    display: flex;
+    justify-content: space-between;
+}
+.cost {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.cost>span {
+    font-weight: 400;
+    font-size: 14px;
+}
+.mini-card {
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+
+.card-details {
+    min-width: 30%;
+    background-color: white;
+    color: rgb(1, 121, 75);
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card-details>p {
+    font-size: 14px;
+}
+
+footer {
+    padding: 5%;
+    background-color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        display: block;
+    }
+
+    .right-container {
+        flex: 3;
+        padding: 2% 5% 2% 5%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .time {
+        position: relative;
+        background-color: rgb(255, 255, 255);
+        opacity: 0.9;
+        bottom: 30px;
+        left: 10px;
+        border-radius: 3px;
+        color: rgb(36, 36, 36);
+        padding: 0 5px 0 5px;
+        width: 40px;
+    }
+}
